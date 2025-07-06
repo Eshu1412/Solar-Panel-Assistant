@@ -13,7 +13,7 @@ headers={
 
 # Configure Gemini API
 genai.configure(api_key=auth_token)
-model = genai.GenerativeModel("models/gemini-1.5-flash")
+model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 # Streamlit page config
 st.set_page_config(
