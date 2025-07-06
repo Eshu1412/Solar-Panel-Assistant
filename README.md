@@ -240,7 +240,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For issues, questions, or contributions:
 - Open an issue on GitHub
 - Contact: mauryatushar115@gmail.com
-- Documentation: [Wiki](https://github.com/yourusername/solar-rooftop-analyzer/wiki)
+- Documentation: [Wiki](https://en.wikipedia.org/wiki/Solar_panel)
 
 ---
 
