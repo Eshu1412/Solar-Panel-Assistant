@@ -15,7 +15,7 @@ A sophisticated Streamlit application that leverages Google's Gemini AI to analy
 - [Contributing](#contributing)
 - [License](#license)
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - **Dual Input Methods**: Analyze via rooftop images or geographic coordinates
@@ -48,7 +48,7 @@ A sophisticated Streamlit application that leverages Google's Gemini AI to analy
    - Seasonal variation modeling
    - Performance ratio calculations
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
 ```bash
@@ -67,7 +67,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 1. **Set up Google Gemini API**
    - Get an API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
@@ -87,7 +87,7 @@ COST_PER_KW = 45000      # INR per kW
 ELECTRICITY_RATE = 7.5   # INR per kWh
 ```
 
-## 📖 Usage
+## Usage
 
 1. **Run the application**
 ```bash
@@ -107,7 +107,7 @@ streamlit run app.py
    - Explore interactive charts
    - Download detailed JSON report
 
-## 🔧 Technical Details
+## Technical Details
 
 ### System Architecture
 ```
@@ -137,10 +137,9 @@ Creates comprehensive visualization with metrics, charts, and recommendations.
 #### `clean_json_response(text: str) -> str`
 Extracts and cleans JSON from Gemini API responses.
 
-## 📊 API Response Format
+## API Response Format
 
 The application expects the following JSON structure from Gemini API:
-
 ```json
 {
   "location_analysis": {
@@ -201,10 +200,9 @@ The application expects the following JSON structure from Gemini API:
 }
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 Create a `requirements.txt` file:
-
 ```txt
 streamlit==1.28.1
 pillow==10.1.0
@@ -212,12 +210,12 @@ google-generativeai==0.3.0
 plotly==5.18.0
 ```
 
-## 🤝 Contributing
+## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
+1. Fork the repository  
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)  
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)  
+4. Push to branch (`git push origin feature/AmazingFeature`)  
 5. Open a Pull Request
 
 ### Development Guidelines
@@ -226,22 +224,22 @@ plotly==5.18.0
 - Update tests for new features
 - Ensure backward compatibility
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-- Google Gemini AI for powering the analysis
-- Streamlit for the web framework
-- Plotly for interactive visualizations
+- Google Gemini AI for powering the analysis  
+- Streamlit for the web framework  
+- Plotly for interactive visualizations  
 - Solar industry standards from MNRE (Ministry of New and Renewable Energy, India)
 
 ## 📞 Support
 
 For issues, questions, or contributions:
 - Open an issue on GitHub
-- Contact: your-email@example.com
+- Contact: mauryatushar115@gmail.com
 - Documentation: [Wiki](https://github.com/yourusername/solar-rooftop-analyzer/wiki)
 
 ---
