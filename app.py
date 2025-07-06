@@ -6,13 +6,9 @@ import re
 from typing import Dict, Optional
 import plotly.graph_objects as go
 import plotly.express as px
-headers={
-    "authorization":st.secrets["auth_token"],
-    "content-type":"application/json"
-}
 
 # Configure Gemini API
-genai.configure(api_key=auth_token)
+genai.configure(api_key=st.secrets["auth_key"])
 model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 # Streamlit page config
