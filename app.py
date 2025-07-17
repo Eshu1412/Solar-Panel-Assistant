@@ -9,7 +9,7 @@ import plotly.express as px
 
 # Configure Gemini API
 genai.configure(api_key=st.secrets["auth_key"])
-model = genai.GenerativeModel("models/gemini-2.5-flash")
+model = genai.GenerativeModel("models/gemini-2.5-pro")
 
 # Streamlit page config
 st.set_page_config(
